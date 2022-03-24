@@ -45,7 +45,7 @@ public class StringCalculator {
     }
 
     private static boolean customSeparatorExists(Matcher matcher) {
-        return matcher.find();
+        return matcher.matches();
     }
 
     private static String getCustomSeparators(Matcher matcher) {
